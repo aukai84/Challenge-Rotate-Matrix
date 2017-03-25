@@ -13,10 +13,6 @@ const Direction = require("./Direction").Direction;
 module.exports = class MatrixRotator {
   constructor( matrix ) {
     this.matrix = matrix;
-    // this.arrOne = [];
-    // this.arrTwo = [];
-    // this.arrThree = [];
-    // this.bigArr2 = [];
   }
 
   //      |-- Must be Direction.CW
